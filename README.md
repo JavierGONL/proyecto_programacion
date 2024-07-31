@@ -30,6 +30,7 @@ descriccion aqui
 <br>
 - Explicación: La puerta lógica YES considera una única entrada y una única salida, la salida tiene siempre el mismo valor que la entrada. Se puede recrear con un transistor.
 </details>
+
 ### puerta NOT
 <details><summary>explicacion</summary>
   - tabla de verdad:
@@ -46,6 +47,7 @@ descriccion aqui
 <br>
 - Explicación: La puerta lógica NOT considera una única entrada y una única salida, la salida tiene siempre el valor inverso al de la entrada. Esta puerta se utiliza para crear puertas como la NAND o la NOR entre otras, al colocarse en la salida de la puerta que se desea invertir. Se puede recrear con un transistor cuya salida conecta a tierra.
 </details>
+
 ### puerta AND
 <details><summary>explicacion</summary>
   - tabla de verdad:
@@ -60,7 +62,7 @@ descriccion aqui
 </table>
 <br>
   - Explicacion: La puerta AND considera 2 entradas y una única salida en función de las entradas, encendiendose unicamente si ambas entradas están encendidas; en los otros casos la puerta se mantiene apagada. Se puede recrear con 2 transistores conectados en serie.
-</details>
+
 
 ### puerta OR
 
