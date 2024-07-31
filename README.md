@@ -61,3 +61,4 @@ descriccion aqui
 </table>
 <br>
 </details>
+- La puerta OR considera 2 entradas y un única salida en función de las entradas, tal que si alguna de las dos entradas está encendida, la salida lógica también está encendida. El único caso en dónde la salida se encuentra apagada es si ambas entradas se encunetran apagadas.
