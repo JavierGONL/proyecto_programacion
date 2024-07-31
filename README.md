@@ -41,5 +41,22 @@ descriccion aqui
 ### puerta or
 
 <details><summary>explicacion</summary>
-  
-</details>
+  - tabla de verdad:
+  <table>
+     <tr>
+    <td> a </td> <td> b </td> <td> salida </td>
+  </tr>
+  <tr>
+    <td> 0 </td> <td> 0 </td> <td> 0 </td>
+  </tr>
+  <tr>
+    <td> 0 </td> <td> 1 </td> <td> 1 </td>
+  </tr>
+     <tr>
+    <td> 1 </td> <td> 0 </td> <td> 1 </td>
+  </tr>
+     <tr>
+    <td> 1 </td> <td> 1 </td> <td> 1 </td>
+  </tr>
+</table>
+<br>
