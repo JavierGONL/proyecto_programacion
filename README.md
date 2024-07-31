@@ -26,6 +26,8 @@ descriccion aqui
   </tr>
   <tr>
     <td> 1 </td> <td> 1 </td> 
+  </table>
+<br>
 
 ### puerta NOT
 <details><summary>explicacion</summary>
