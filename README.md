@@ -35,7 +35,7 @@ descriccion aqui
   </tr>
 </table>
 <br>
-  - explicacion: basicamente solo cuando a y b son 1 la salida es 1, basicamente todos 1, salida = 1, el resto salida = 0
+  - Explicacion: La puerta AND considera 2 entradas y una única salida en función de las entradas, encendiendose unicamente si ambas entradas están encendidas; en los otros casos la puerta se mantiene apagada. Se puede recrear con 2 transistores conectados en serie.
 </details>
 
 ### puerta or
@@ -61,4 +61,4 @@ descriccion aqui
 </table>
 <br>
 </details>
-- La puerta OR considera 2 entradas y un única salida en función de las entradas, tal que si alguna de las dos entradas está encendida, la salida lógica también está encendida. El único caso en dónde la salida se encuentra apagada es si ambas entradas se encunetran apagadas.
+- Explicación: La puerta OR considera 2 entradas y una única salida en función de las entradas, tal que si alguna de las dos entradas está encendida, la salida lógica también está encendida; el único caso en dónde la salida se encuentra apagada es si ambas entradas se encunetran apagadas. Se puede recrear con 2 transistores conectados en paralelo.
