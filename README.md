@@ -59,6 +59,14 @@ descriccion aqui
     <td> 0 </td> <td> 0 </td> <td> 0 </td>
   </tr>
   <tr>
+    <td> 0 </td> <td> 1 </td> <td> 0 </td>
+  </tr>
+     <tr>
+    <td> 1 </td> <td> 0 </td> <td> 0 </td>
+  </tr>
+     <tr>
+    <td> 1 </td> <td> 1 </td> <td> 1 </td>
+  </tr>
 </table>
 <br>
   - Explicacion: La puerta AND considera 2 entradas y una única salida en función de las entradas, encendiendose unicamente si ambas entradas están encendidas; en los otros casos la puerta se mantiene apagada. Se puede recrear con 2 transistores conectados en serie.
@@ -88,7 +96,7 @@ descriccion aqui
 <br>
 </details>
 - Explicación: La puerta OR considera 2 entradas y una única salida en función de las entradas, tal que si alguna de las dos entradas está encendida, la salida lógica también está encendida; el único caso en dónde la salida se encuentra apagada es si ambas entradas se encunetran apagadas. Se puede recrear con 2 transistores conectados en paralelo.
-</details>
+
 ### puerta XOR
 
 <details><summary>explicacion</summary>
