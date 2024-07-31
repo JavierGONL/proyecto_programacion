@@ -14,7 +14,35 @@ descriccion aqui
 - funcionamiento de las puertas logicas en el proyecto
 ## puertas logicas
 
-### puerta and
+### puerta YES
+<details><summary>explicacion</summary>
+  - tabla de verdad:
+  <table>
+     <tr>
+    <td> entrada </td> <td> salida </td> 
+  </tr>
+  <tr>
+    <td> 0 </td> <td> 0 </td> 
+  </tr>
+  <tr>
+    <td> 1 </td> <td> 1 </td> 
+
+### puerta NOT
+<details><summary>explicacion</summary>
+  - tabla de verdad:
+  <table>
+     <tr>
+    <td> entrada </td> <td> salida </td> 
+  </tr>
+  <tr>
+    <td> 0 </td> <td> 1 </td> 
+  </tr>
+  <tr>
+    <td> 1 </td> <td> 0 </td> 
+</table>
+<br>
+
+### puerta AND
 <details><summary>explicacion</summary>
   - tabla de verdad:
   <table>
@@ -25,20 +53,12 @@ descriccion aqui
     <td> 0 </td> <td> 0 </td> <td> 0 </td>
   </tr>
   <tr>
-    <td> 0 </td> <td> 1 </td> <td> 0 </td>
-  </tr>
-     <tr>
-    <td> 1 </td> <td> 0 </td> <td> 0 </td>
-  </tr>
-     <tr>
-    <td> 1 </td> <td> 1 </td> <td> 1 </td>
-  </tr>
 </table>
 <br>
   - Explicacion: La puerta AND considera 2 entradas y una única salida en función de las entradas, encendiendose unicamente si ambas entradas están encendidas; en los otros casos la puerta se mantiene apagada. Se puede recrear con 2 transistores conectados en serie.
 </details>
 
-### puerta or
+### puerta OR
 
 <details><summary>explicacion</summary>
   - tabla de verdad:
