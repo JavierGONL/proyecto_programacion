@@ -70,7 +70,7 @@ descriccion aqui
 </table>
 <br>
   - Explicacion: La puerta AND considera 2 entradas y una única salida en función de las entradas, encendiendose unicamente si ambas entradas están encendidas; en los otros casos la puerta se mantiene apagada. Se puede recrear con 2 transistores conectados en serie.
-
+</details>
 
 ### puerta OR
 
@@ -96,6 +96,7 @@ descriccion aqui
 <br>
 </details>
 - Explicación: La puerta OR considera 2 entradas y una única salida en función de las entradas, tal que si alguna de las dos entradas está encendida, la salida lógica también está encendida; el único caso en dónde la salida se encuentra apagada es si ambas entradas se encunetran apagadas. Se puede recrear con 2 transistores conectados en paralelo.
+</details>
 
 ### puerta XOR
 
@@ -121,3 +122,4 @@ descriccion aqui
 <br>
 </details>
 - Explicación: La puerta XOR considera 2 entradas y una única salida en función de las entradas, tal que si alguna de las dos entradas está encendida, la salida lógica también está encendida; su comportamiento es muy parecido al de la puerta OR, solo que a diferencia de esta, se apaga si ambas entradas se encuentran encendidas. Se puede recrear haciendo un cirucito híbrido entre la puerta AND y la OR(conectando ambos transistores tanto en serie como en paralelo), el circuito OR mantiene sus salidas originales, mientras que el circuito AND tiene la salida conectada a tierra.
+</details>
