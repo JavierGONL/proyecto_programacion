@@ -121,3 +121,118 @@ descriccion aqui
 <br>
 - Explicación: La puerta XOR considera 2 entradas y una única salida en función de las entradas, tal que si alguna de las dos entradas está encendida, la salida lógica también está encendida; su comportamiento es muy parecido al de la puerta OR, solo que a diferencia de esta, se apaga si ambas entradas se encuentran encendidas. Se puede recrear haciendo un cirucito híbrido entre la puerta AND y la OR(conectando ambos transistores tanto en serie como en paralelo), el circuito OR mantiene sus salidas originales, mientras que el circuito AND tiene la salida conectada a tierra.
 </details>
+
+## Flip flops
+
+### rs flip flop (asincrono)
+
+<details><summary>explicacion</summary>
+  - tabla de verdad:
+  <table>
+   <tr>
+    <td> r </td> <td> s </td> <td> q </td> <td> q` </td>
+  </tr>
+  <tr>
+  <td> 0 </td> <td> 0 </td> <td> sin cambios </td>
+  </tr>
+  <tr>
+    <td> 1 </td> <td> 0 </td> <td> 1 </td><td> 0 </td>
+  </tr>
+     <tr>
+    <td> 0 </td> <td> 1 </td> <td> 0 </td><td> 1 </td>
+  </tr>
+     <tr>
+    <td> 1 </td> <td> 1 </td> <td> estado invalido </td>
+  </tr>
+</table>
+<br>
+- Explicación: 
+</details>
+
+### rs flip flop (sincrono)
+
+<details><summary>explicacion</summary>
+  - tabla de verdad:
+  <table>
+   <tr>
+    <td> r </td> <td> s </td> <td> q </td> <td> q` </td>
+  </tr>
+  <tr>
+  <td> 0 </td> <td> 0 </td> <td> sin cambios </td> 
+  </tr>
+  <tr>
+    <td> 1 </td> <td> 0 </td> <td> 1 </td><td> 0 </td>
+  </tr>
+     <tr>
+    <td> 0 </td> <td> 1 </td> <td> 0 </td><td> 1 </td>
+  </tr>
+     <tr>
+    <td> 1 </td> <td> 1 </td> <td> estado invalido </td>
+  </tr>
+</table>
+<br>
+- Explicación: 
+</details>
+
+### d flip flop 
+
+<details><summary>explicacion</summary>
+  - tabla de verdad:
+  <table>
+   <tr>
+    <td> d </td> <td> q </td> <td> q` </td>
+  </tr>
+  <tr>
+  <td> 0 </td> <td> 0 </td> <td> 1 </td> 
+  </tr>
+  <tr>
+    <td> 1 </td> <td> 1 </td> <td> 0 </td>
+  </tr>
+</table>
+<br>
+- Explicación: 
+</details>
+
+### jk flip flop
+
+<details><summary>explicacion</summary>
+  - tabla de verdad:
+  <table>
+   <tr>
+    <td> j </td> <td> k </td>  <td> q </td> <td> q` </td>
+  </tr>
+  <tr>
+  <td> 0 </td> <td> 0 </td> <td> sin cambios </td>
+  </tr>
+  <tr>
+    <td> 1 </td> <td> 0 </td> <td> 1 </td><td> 0 </td>
+  </tr>
+     <tr>
+    <td> 0 </td> <td> 1 </td> <td> 0 </td><td> 1 </td>
+  </tr>
+     <tr>
+    <td> 1 </td> <td> 1 </td> <td> toggle </td>
+  </tr>
+</table>
+<br>
+- Explicación: 
+</details>
+
+### t flip flop
+
+<details><summary>explicacion</summary>
+  - tabla de verdad:
+  <table>
+  <tr>
+  <td> t </td> <td> q </td> <td> q` </td>
+  </tr>
+  <tr>
+  <td> 0 </td>  <td> sin cambios </td>
+  </tr>
+  <tr>
+  <td> 1 </td> <td> toggle  </td>
+  <tr>
+</table>
+<br>
+- Explicación: 
+</details>
